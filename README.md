@@ -1,4 +1,5 @@
 ## JokerBot
+[![Discord Badge](https://discordapp.com/api/guilds/594062862868021268/embed.png)](https://discord.gg/2ksxEug)</br></br>
 A Discord entertainment bot with lots of cool and fun games to kill your time. Created for the Discord Hack Week 2019, by manish#9999.
 
 ## How to setup?
@@ -24,3 +25,13 @@ Command | Description
 `guessthemovie` | Guess the movie from the emojis!
 `scramble` | Unscramble the word to win!
 `caption` | Captions any image provided!
+
+## Screenshots
+
+![Mystic Square](screenshots/s1.png)
+![Word Hunt](screenshots/s2.png)
+![Who's That Pokemon](screenshots/s3.png)
+
+## Useful Links
+[Add the bot to your server!](https://discordapp.com/oauth2/authorize?client_id=592938355818233856&scope=bot&permissions=8)
+[Join the support server!](https://discord.gg/2ksxEug)
