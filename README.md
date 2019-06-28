@@ -1,5 +1,6 @@
 ## JokerBot
-[![Discord Badge](https://discordapp.com/api/guilds/594062862868021268/embed.png)](https://discord.gg/2ksxEug)</br></br>
+[![Discord Badge](https://discordapp.com/api/guilds/594062862868021268/embed.png)](https://discord.gg/2ksxEug)  [![HitCount](http://hits.dwyl.io/iammanish17/JokerBot.svg)](http://hits.dwyl.io/iammanish17/JokerBot)
+</br></br>
 A Discord entertainment bot with lots of cool and fun games to kill your time. Created for the Discord Hack Week 2019, by manish#9999.
 
 ## How to setup?
