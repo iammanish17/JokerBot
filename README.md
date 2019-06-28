@@ -34,5 +34,5 @@ Command | Description
 ![Who's That Pokemon](screenshots/s3.png)
 
 ## Useful Links
-[Add the bot to your server!](https://discordapp.com/oauth2/authorize?client_id=592938355818233856&scope=bot&permissions=8)
+[Add the bot to your server!](https://discordapp.com/oauth2/authorize?client_id=592938355818233856&scope=bot&permissions=8)</br>
 [Join the support server!](https://discord.gg/2ksxEug)
