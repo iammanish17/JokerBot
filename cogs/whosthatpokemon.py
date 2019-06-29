@@ -44,7 +44,7 @@ class Pokemon(commands.Cog):
         asyncio.ensure_future(second())
 
         def check(msg):
-            return not msg.author.bot and msg.content.strip().lower().replace(" ", "") == name.lower().replace(" ", "")
+            return not msg.author.bot and msg.content.strip().lower().replace(" ", "") == name.lower().replace(" ", "") and msg.channel == ctx.channel
 
         resp = None
         try:
