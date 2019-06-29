@@ -2,10 +2,10 @@
   "token": "your bot token goes here",
   "emojis":
   {
-    "11": "<:11:593101416357298190>",
-    "12": "<:12:593101423378432000>",
-    "13": "<:13:593101427954679828>",
-    "14": "<:14:593101427140984852>",
-    "15": "<:15:593101426897584129>"
+    "11": "<:11:REPLACE-THIS-WITH-EMOJI-ID>",
+    "12": "<:12:REPLACE-THIS-WITH-EMOJI-ID>",
+    "13": "<:13:REPLACE-THIS-WITH-EMOJI-ID>",
+    "14": "<:14:REPLACE-THIS-WITH-EMOJI-ID>",
+    "15": "<:15:REPLACE-THIS-WITH-EMOJI-ID>"
   }
 }
