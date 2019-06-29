@@ -21,7 +21,7 @@ class Movie(commands.Cog):
         def check(msg):
             return not msg.author.bot and \
                    "".join(k for k in msg.content.lower() if k.isalnum()) == "".join(k for k in movie.lower()
-                                                                                        if k.isalnum())
+                                                                                        if k.isalnum()) and msg.channel == ctx.channel
         try:
             resp = await self.client.wait_for("message", timeout=30, check=check)
             await ctx.channel.send("That's right, %s! You've guessed the movie correctly: **%s**." %
