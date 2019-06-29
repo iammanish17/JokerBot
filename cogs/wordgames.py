@@ -128,7 +128,7 @@ class WordGames(commands.Cog):
 
         def check(msg):
             nonlocal points, usedwords
-            if not msg.author.bot:
+            if not msg.author.bot and msg.channel == ctx.channel:
                 tocheck = msg.content.strip().upper()
                 if len(tocheck) <= 9 and tocheck not in usedwords and tocheck.lower() in self.allwords:
                     if self.check_word(tocheck, linegrid) or self.check_word(tocheck[::-1], linegrid):
@@ -190,7 +190,7 @@ class WordGames(commands.Cog):
 
         def check(msg):
             nonlocal curword, winner
-            if not msg.author.bot:
+            if not msg.author.bot and msg.channel == ctx.channel:
                 tocheck = msg.content.strip().upper()
                 if len(curword) < len(tocheck) <= 9 and tocheck.lower() in self.allwords:
                     if self.check_word(tocheck, linegrid) or self.check_word(tocheck[::-1], linegrid):
@@ -223,7 +223,7 @@ class WordGames(commands.Cog):
         await ctx.channel.send(embed=embed)
 
         def check(msg):
-            return not msg.author.bot and msg.content.lower().strip() == word
+            return not msg.author.bot and msg.content.lower().strip() == word and msg.channel == ctx.channel
         resp = None
         try:
             resp = await self.client.wait_for('message', timeout=30, check=check)
@@ -244,7 +244,7 @@ class WordGames(commands.Cog):
         await msg.add_reaction("✅")
 
         def check(reaction, user):
-            if not user.bot and user.id not in players and str(reaction.emoji) == "✅":
+            if not user.bot and user.id not in players and str(reaction.emoji) == "✅" and reaction.message.id == msg.id:
                 players.append(user.id)
             return False
         try:
