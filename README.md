@@ -1,4 +1,4 @@
-<img alt="Banner" src="banner.png" style="border-radius:10px">
+<img alt="Banner" src="poster.png" style="border-radius:10px">
 
 ## JokerBot
 [![Discord Badge](https://discordapp.com/api/guilds/594062862868021268/embed.png)](https://discord.gg/2ksxEug)  [![HitCount](http://hits.dwyl.io/iammanish17/JokerBot.svg)](http://hits.dwyl.io/iammanish17/JokerBot)
