@@ -1,7 +1,7 @@
 <img alt="Banner" src="poster.png" style="border-radius:10px">
 
 ## JokerBot
-[![Discord Badge](https://discordapp.com/api/guilds/594062862868021268/embed.png)](https://discord.gg/2ksxEug)  [![HitCount](http://hits.dwyl.io/iammanish17/JokerBot.svg)](http://hits.dwyl.io/iammanish17/JokerBot)
+[![HitCount](http://hits.dwyl.io/iammanish17/JokerBot.svg)](http://hits.dwyl.io/iammanish17/JokerBot)
 </br></br>
 A Discord entertainment bot with lots of cool and fun games to kill your time. Created for the Discord Hack Week 2019, by manish#9999.
 
@@ -34,7 +34,3 @@ Command | Description
 ![Mystic Square](screenshots/s1.png)
 ![Word Hunt](screenshots/s2.png)
 ![Who's That Pokemon](screenshots/s3.png)
-
-## Useful Links
-[Add the bot to your server!](https://discordapp.com/oauth2/authorize?client_id=592938355818233856&scope=bot&permissions=8)</br>
-[Join the support server!](https://discord.gg/2ksxEug)
